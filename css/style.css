@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fae0ef; 
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    flex-grow: 1;
+    margin-top: 32px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+#menu-btn {
+    cursor: pointer;
+}
+
+#home,
+#cart {
+    background-color: #1a5d66;
+}
+
+section {
+    flex: 70%;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 30%;
+    background-color: #b17373;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #007BFF;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup:target {
+    display: flex;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto; 
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007BFF;
+}
