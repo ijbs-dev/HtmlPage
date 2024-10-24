@@ -1,4 +1,5 @@
 # SelFAKE - Plataforma de Vendas
+[HtmlPage ](https://ijbs-dev.github.io/HtmlPage/) 
 
 Este repositório da **SelFAKE**, uma plataforma de vendas ficticia (para fins educacionais) que oferece uma experiência fluida e intuitiva para os usuários explorarem e adquirirem produtos de alta tecnologia.
 
