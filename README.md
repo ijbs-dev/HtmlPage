@@ -1,7 +1,7 @@
 # SelFAKE - Plataforma de Vendas
-[HtmlPage ](https://ijbs-dev.github.io/HtmlPage/) 
+[HtmlPage](https://ijbs-dev.github.io/HtmlPage/)
 
-Este repositório da **SelFAKE**, uma plataforma de vendas ficticia (para fins educacionais) que oferece uma experiência fluida e intuitiva para os usuários explorarem e adquirirem produtos de alta tecnologia.
+Este repositório contém o código-fonte da **SelFAKE**, uma plataforma de vendas fictícia desenvolvida para fins educacionais. Ela oferece uma experiência fluida e intuitiva, permitindo que os usuários explorem e adquiram produtos de alta tecnologia.
 
 ## Índice
 
@@ -12,6 +12,7 @@ Este repositório da **SelFAKE**, uma plataforma de vendas ficticia (para fins e
 - [Pré-requisitos](#pré-requisitos)
 - [Como Rodar o Projeto](#como-rodar-o-projeto)
 - [Seções da Página](#seções-da-página)
+- [Visualização Detalhada](#visualização-detalhada)
 - [Customização](#customização)
 
 ## Visão Geral
@@ -72,6 +73,32 @@ Para rodar este projeto localmente, você precisará de:
 - **Seção de Produtos**: Apresenta uma listagem de produtos em destaque com descrições detalhadas.
 - **Carrinho de Compras**: Página dedicada para revisão e controle dos produtos adicionados ao carrinho.
 - **Formulário de Login/Cadastro**: Popups responsivos para login e cadastro de usuários.
+
+## Visualização Detalhada
+
+### Galeria de Imagens e Vídeos do Projeto
+
+Aqui estão algumas imagens e vídeos do projeto **SelFAKE** em ação:
+
+**1) Diretório do Projeto**  
+
+<img src="https://github.com/ijbs-dev/HtmlPage/blob/main/images/screen/print02.png">
+
+**2) Tela de Home**  
+
+<img src="https://github.com/ijbs-dev/HtmlPage/blob/main/images/screen/print01.png">
+
+**3) Tela de Carrinho de Compras**  
+
+<img src="https://github.com/ijbs-dev/HtmlPage/blob/main/images/screen/print03.png">
+
+**4) Resumo das Funcionalidades (Home, Login/Cadastro e Redes Sociais)**  
+
+![GIF 1 - HOME](https://github.com/ijbs-dev/HtmlPage/blob/main/images/screen/movie01.gif)
+
+**5) Links de Compras Externos e Carrinho de Compras**  
+
+![GIF 2 - CARRINHO](https://github.com/ijbs-dev/HtmlPage/blob/main/images/screen/movie02.gif)
 
 ## Customização
 
